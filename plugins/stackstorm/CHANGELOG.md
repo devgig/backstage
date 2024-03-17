@@ -1,5 +1,14 @@
 # @backstage/plugin-stackstorm
 
+## 0.1.12
+
+### Patch Changes
+
+- Updated dependencies
+  - @backstage/core-components@0.14.1
+  - @backstage/errors@1.2.4
+  - @backstage/core-plugin-api@1.9.1
+
 ## 0.1.12-next.2
 
 ### Patch Changes

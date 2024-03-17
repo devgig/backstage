@@ -1,5 +1,16 @@
 # @backstage/plugin-catalog-unprocessed-entities
 
+## 0.1.9
+
+### Patch Changes
+
+- 2b397fe: Added the `no-top-level-material-ui-4-imports` ESLint rule to aid with the migration to Material UI v5
+- Updated dependencies
+  - @backstage/core-components@0.14.1
+  - @backstage/errors@1.2.4
+  - @backstage/core-plugin-api@1.9.1
+  - @backstage/catalog-model@1.4.5
+
 ## 0.1.9-next.2
 
 ### Patch Changes

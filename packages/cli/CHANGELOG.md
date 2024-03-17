@@ -1,5 +1,31 @@
 # @backstage/cli
 
+## 0.25.3
+
+### Patch Changes
+
+- b0875e5: Fixed a bug that could cause the `build-workspace` command to fail when invoked with `--alwaysYarnPack` enabled in environments with limited resources.
+- 999224f: Bump dependency `minimatch` to v9
+- 8dce287: Fix prettier issues on default plugins & module templates
+- f86e34c: Removed unused `replace-in-file` dependency
+- 2398c7c: Updated dependency `@spotify/prettier-config` to `^15.0.0`.
+  Updated dependency `@spotify/eslint-config-base` to `^15.0.0`.
+  Updated dependency `@spotify/eslint-config-react` to `^15.0.0`.
+  Updated dependency `@spotify/eslint-config-typescript` to `^15.0.0`.
+- f4404e5: Add .ico import support
+- f39dfd3: Tweak the descriptions of the CLI templates
+- Updated dependencies
+  - @backstage/integration@1.9.1
+  - @backstage/config@1.2.0
+  - @backstage/errors@1.2.4
+  - @backstage/eslint-plugin@0.1.6
+  - @backstage/config-loader@1.7.0
+  - @backstage/cli-node@0.2.4
+  - @backstage/catalog-model@1.4.5
+  - @backstage/cli-common@0.1.13
+  - @backstage/release-manifests@0.0.11
+  - @backstage/types@1.1.1
+
 ## 0.25.3-next.2
 
 ### Patch Changes
